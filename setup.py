@@ -10,11 +10,12 @@ def read_requirements(filename):
 
 
 setup(
-    name="producao",
+    name="dfutils",
     version="0.1.0",
     description="Data analysis helper tookit for pandas dataframes",
     long_description=README,
     long_description_content_type="text/markdown",
+    url="https://github.com/alancampag/df-utils",
     license="MIT",
     author="Alan Campagnaro",
     packages=find_packages(),
